@@ -269,7 +269,7 @@ footer {
 }
 
 .icons {
-  color:#1098ad;
+  color: #1098ad;
 }
 
 .icons a:link {
@@ -499,12 +499,12 @@ button[type="submit"]:hover {
 
 .GoFoods-description {
   margin-bottom: 20px;
-  color: #0b0b0b;
+  text-align: center;
 }
 
 .GoFoods-container {
   display: flex;
-  /* gap: 20px; */
+  gap: 20px;
   align-items: center;
   justify-content: center;
 }
@@ -518,7 +518,7 @@ button[type="submit"]:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .VB-title,
@@ -543,10 +543,13 @@ button[type="submit"]:hover {
   color: #000000;
 }
 
+.VB-description {
+  text-align: center;
+}
+
 .misc-title {
   font-size: 40px;
-  text-decoration: underline;
-  text-decoration-color: #1098ad;
+  font-family: "Cursive";
 }
 
 .BUWA-gif,
