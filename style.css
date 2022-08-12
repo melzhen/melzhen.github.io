@@ -28,9 +28,31 @@ h1 {
   padding: 50px 0; */
   text-align: center;
   font-size: 100px;
-  color: #1098ad;
+  /* color: #1098ad; */
+  color: #fff;
   margin-bottom: 10px;
-  font-family: "fantasy";
+  font-family: "Vibur", sans-serif;
+  animation: flicker 3s infinite alternate;
+}
+
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 7px #fff, 0 0 10px #1098ad, 0 0 21px #57e7fd,
+      0 0 42px #1098ad, 0 0 82px #1098ad, 0 0 92px #1098ad, 0 0 102px #1098ad,
+      0 0 151px #1098ad;
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
 }
 
 .about {
@@ -219,11 +241,19 @@ footer {
 
 .languages {
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
   /* padding: 10px 0; */
 }
 
 .programs {
   margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .click-here {
