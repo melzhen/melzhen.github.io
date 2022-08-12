@@ -307,13 +307,6 @@ footer {
   color: #f9a6f1;
 }
 
-.container,
-.programming-container,
-.about-container,
-.design-container {
-  width: 100%;
-}
-
 .coding-projects,
 .movie-ticket-system,
 .functional-stack {
@@ -587,4 +580,12 @@ button[type="submit"]:hover {
   justify-content: space-between;
   align-items: center;
   padding: 40px;
+}
+
+.container,
+.programming-container,
+.about-container,
+.design-container,
+.misc-container {
+  width: 100%;
 }
