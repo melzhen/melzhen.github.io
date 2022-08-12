@@ -477,3 +477,94 @@ button[type="submit"]:hover {
   grid-row-start: 10;
   grid-row-end: 13;
 }
+
+/* My Designs */
+.design-container {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
+
+.my-designs {
+  font-family: "Cursive";
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.GoFoods {
+  background-color: #1098ad;
+  padding: 20px;
+}
+
+.GoFoods-title {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #0b0b0b;
+}
+
+.GoFoods-description {
+  margin-bottom: 20px;
+  color: #0b0b0b;
+}
+
+.GoFoods-container {
+  display: flex;
+  /* gap: 20px; */
+  align-items: center;
+  justify-content: center;
+}
+
+.GoFoods-img {
+  width: 1120px;
+  height: 380px;
+}
+
+.GoFoods-imgdescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.VB-title,
+.misc-title {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.VB-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.VisualBalance {
+  background-color: #f9a6f1;
+  padding: 40px;
+}
+
+.VB-title {
+  color: #000000;
+}
+
+.misc-title {
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-color: #1098ad;
+}
+
+.BUWA-gif,
+.Movie-Night,
+.ClubPromo {
+  width: 400px;
+  height: 400px;
+}
+
+.misc-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
