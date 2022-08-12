@@ -75,13 +75,6 @@ body {
   /* margin: 0 0 20px; */
 }
 
-.container {
-  /* width: 1200px;
-  margin: 0 auto; */
-
-  /* position: relative; */
-}
-
 .main-header {
   /* background-color: #f7f7f7; */
   padding: 20px 40px;
@@ -155,13 +148,6 @@ footer {
   color: #f9a6f1;
   margin-bottom: 10px;
 }
-
-/* #copyright {
-  position: absolute;
-  bottom: 0;
-  height: 20px;
-  width: 100%;
-} */
 
 .interests-nav {
   display: flex;
@@ -319,6 +305,13 @@ footer {
 .icons a:active {
   font-style: none;
   color: #f9a6f1;
+}
+
+.container,
+.programming-container,
+.about-container,
+.design-container {
+  width: 100%;
 }
 
 .coding-projects,
