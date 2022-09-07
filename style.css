@@ -26,28 +26,35 @@ h1 {
   color: #ff679c;
   margin-bottom: 15px;
   font-family: "Vibur", sans-serif;
-  /* animation: flicker 3s infinite alternate; */
 }
 
-/* @keyframes flicker {
-  0%,
-  18%,
-  22%,
-  25%,
-  53%,
-  57%,
-  100% {
-    text-shadow: 0 0 7px #fff, 0 0 10px #ff66ce, 0 0 21px #57e7fd,
-      0 0 42px #ff66ce, 0 0 82px #ff66ce, 0 0 92px #ff66ce, 0 0 102px #ff66ce,
-      0 0 151px #ff66ce;
-  }
+.welcome {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.01em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.6s step-end infinite;
+}
 
-  20%,
-  24%,
-  55% {
-    text-shadow: none;
+@keyframes typing {
+  from {
+    width: 0;
   }
-} */
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #ff679c;
+  }
+}
 
 .about {
   padding-bottom: 30px;
@@ -595,7 +602,7 @@ button[type="submit"]:hover {
 }
 
 .VB-title {
-  color: #000000;
+  color: #fff;
 }
 
 .VB-img {
