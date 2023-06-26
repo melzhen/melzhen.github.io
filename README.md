@@ -1,3 +1,3 @@
 # Welcome to my portfolio!
 
-Made with HTML and CSS.
+Made entirely with CSS, HTML, and JavaScript.
