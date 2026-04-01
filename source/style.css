@@ -681,6 +681,7 @@ button[type="submit"]:hover {
 .VisualBalance {
   background-color: #f9a6f1;
   padding: 40px;
+  margin: 20px;
 }
 
 .VB-title {
