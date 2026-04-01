@@ -58,7 +58,7 @@ h1 {
 
 .about {
   padding-bottom: 15px;
-  font-size: calc(1vw + 0.3vh);
+  font-size: calc(1vw + 0.05vh);
   text-align: center;
   margin: auto;
   margin-bottom: 20px;
