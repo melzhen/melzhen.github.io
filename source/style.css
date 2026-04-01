@@ -354,8 +354,10 @@ footer {
   height: auto;
 }
 
+.analytics-projects,
 .coding-projects {
   margin-top: 20px;
+  margin-bottom: 40px;
   font-family: input-mono, monospace;
   font-weight: 300;
   font-style: normal;
@@ -364,6 +366,7 @@ footer {
   font-size: calc(20px + 3.5vw);
 }
 
+.analytics-projects,
 .coding-projects,
 .movie {
   text-align: center;
@@ -712,11 +715,27 @@ button[type="submit"]:hover {
 
 .container,
 .programming-container,
+.analytics-container,
 .about-container,
 .design-container,
 .misc-container {
   width: 100%;
 }
+
+.esd-container {
+  text-align: center;
+}
+
+.esd-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.analytics-container {
+  margin-bottom: 60px;
+}
+
+
 
 /* image slider */
 .misc-wrapper {
