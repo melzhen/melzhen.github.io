@@ -723,7 +723,8 @@ button[type="submit"]:hover {
   width: 100%;
 }
 
-.esd-container {
+.esd-container,
+.sleep-health-container {
   text-align: center;
 }
 
@@ -732,11 +733,19 @@ button[type="submit"]:hover {
   height: auto;
 }
 
+.sleep-health {
+  margin-bottom: 20px;
+}
+
 .analytics-container {
   margin-bottom: 60px;
 }
 
-
+.sleep-health-container {
+  max-width: 70%;   
+  margin: 0 auto;     
+  padding: 20px;
+}
 
 /* image slider */
 .misc-wrapper {
