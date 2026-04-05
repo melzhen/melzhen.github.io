@@ -724,7 +724,8 @@ button[type="submit"]:hover {
 }
 
 .esd-container,
-.sleep-health-container {
+.sleep-health-container,
+.web-page-pd-container {
   text-align: center;
 }
 
