@@ -729,7 +729,8 @@ button[type="submit"]:hover {
   text-align: center;
 }
 
-.esd-container img {
+.esd-container img,
+.sleep-health-container img {
   max-width: 100%;
   height: auto;
 }
