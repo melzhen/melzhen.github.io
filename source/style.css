@@ -32,7 +32,8 @@ h1 {
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: 0.01em;
-  animation: typing 3.5s steps(40, end) infinite,
+  animation:
+    typing 3.5s steps(40, end) infinite,
     blink-caret 0.6s step-end infinite;
 }
 
@@ -348,7 +349,6 @@ footer {
   height: auto;
   object-fit: cover;
 }
-
 
 .video-container video {
   max-width: 100%;
@@ -669,11 +669,11 @@ button[type="submit"]:hover {
   gap: 20px;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .VB-container > div {
-  flex: 1 1 300px; 
+  flex: 1 1 300px;
 }
 
 .VB-img {
@@ -725,12 +725,14 @@ button[type="submit"]:hover {
 
 .esd-container,
 .sleep-health-container,
-.web-page-pd-container {
+.web-page-pd-container,
+.spotify-analysis-container {
   text-align: center;
 }
 
 .esd-container img,
-.sleep-health-container img {
+.sleep-health-container img,
+.spotify-analysis-container img {
   max-width: 100%;
   height: auto;
 }
@@ -743,9 +745,10 @@ button[type="submit"]:hover {
   margin-bottom: 60px;
 }
 
-.sleep-health-container {
-  max-width: 70%;   
-  margin: 0 auto;     
+.sleep-health-container,
+.spotify-analysis-container {
+  max-width: 70%;
+  margin: 0 auto;
   padding: 20px;
 }
 
@@ -898,7 +901,6 @@ button[type="submit"]:hover {
     /* margin: 20px 0; */
   }
 }
-
 
 @media (max-width: 1100px) {
   .shanghai-imgs {
